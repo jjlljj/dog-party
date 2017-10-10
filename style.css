@@ -1,0 +1,154 @@
+
+
+body {
+	margin: 0;
+}
+
+/* header, img & navbar */
+header {
+	width: 100%;
+	background-color: #92e0e5;
+	margin: 0;
+	position: relative;
+}
+
+.header-logo {
+	display: inline;
+	position: relative;
+	margin-right: 0;
+	width: 32px;
+	height: 32px;
+	padding: 10px;
+}
+
+.nav {
+	padding: 4px 1em;
+	text-align: right;
+	position: relative;
+	display: inline-block;
+	float:right;
+}
+
+header ul li {
+	display: inline-block;
+	text-align: right;
+	list-style: none;
+	padding-right: 1em;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.1em;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* hero image, banner text & button */
+
+.img-banner {
+	background-image: url(images/park.jpg);
+	background-repeat: no-repeat;
+	background-position: static;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	padding: 1em 0em;
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.img-banner img {
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 15px;
+	text-align: center;
+	border: 3px solid #3f8da7;
+}
+
+.img-banner button {
+	display: block;
+	margin: 10px auto 20px;
+	text-align: center;
+	border: 2px solid #3f8da7;
+	pointer-events: none;
+	font-size: 1.2em;
+	color: #3f8da7;
+	border-radius: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* team of dogs section */
+
+article {
+	display: inline-block;
+	width: 32%;
+	min-width: 100px;
+	font-family: 'Raleway', sans-serif;
+	min-width: 250px;
+}
+
+.dog-team {
+	width: 100%;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+}
+
+.dog-team article h3 {
+	margin: 10px auto 1em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.dogdog {
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	height: 160px;
+	width: 160px;
+	border: 2px solid #3f8da7;
+}
+
+.dog-team article button {
+	margin: auto;
+	display: block;
+	text-align: center;
+	pointer-events: none;
+	border: 2px solid #3f8da7;
+	color: #3f8da7;
+	border-radius: 0;
+	font-size: 1.1em;
+	font-family: 'Raleway', sans-serif;
+}
+
+/* footer & social */
+
+footer {
+	width: 100%;
+	height: 160px;
+	margin-top: 34px;
+	background-color: #3f8da7;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+footer h4 {
+	padding: 12px;
+	margin: 20px auto 0px;
+	color: white;
+	font-weight: normal;
+}
+
+.social-bar a img {
+	margin: 15px 20px;
+}
+
+footer a {
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+}
